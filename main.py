@@ -18,6 +18,21 @@ def hello_world():
       return jsonify({
         'resultado': int(numero_1) + int(numero_2)
       })
+    elif:
+     if operacao == 'subtracao':
+      return jsonify({
+        'resultado': int(numero_1) - int(numero_2)
+      })
+    elif:
+     if operacao == 'multiplicacao':
+      return jsonify({
+        'resultado': int(numero_1) * int(numero_2)
+      })
+    elif:
+     if operacao == 'divisao':
+      return jsonify({
+        'resultado': int(numero_1) * int(numero_2)
+      })
     else:
       return jsonify({
         'erro': 'operacao nao reconhecida',
