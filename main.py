@@ -18,20 +18,17 @@ def hello_world():
       return jsonify({
         'resultado': int(numero_1) + int(numero_2)
       })
-    elif:
-     if operacao == 'subtracao':
+    elif operacao == 'subtracao':
       return jsonify({
         'resultado': int(numero_1) - int(numero_2)
       })
-    elif:
-     if operacao == 'multiplicacao':
+    elif operacao == 'multiplicacao':
       return jsonify({
         'resultado': int(numero_1) * int(numero_2)
       })
-    elif:
-     if operacao == 'divisao':
+    elif operacao == 'divisao':
       return jsonify({
-        'resultado': int(numero_1) * int(numero_2)
+        'resultado': int(numero_1) / int(numero_2)
       })
     else:
       return jsonify({
